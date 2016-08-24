@@ -1,8 +1,8 @@
+# https://github.com/MaciejMCh/ExportStoryboard
+
 import sys
 import os, os.path
 import xml.etree.ElementTree
-
-
 
 def camelCase(st):
     output = ''.join(x for x in st.title() if x.isalpha())
